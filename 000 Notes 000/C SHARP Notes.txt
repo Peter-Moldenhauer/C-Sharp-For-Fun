@@ -1,0 +1,68 @@
+*** C# Notes ***
+
+
+
+C# vs. .NET:
+------------
+- C# is a programming language
+- .NET is a framework for building applications on Windows. There are different types of languages that
+	can target the .NET framework and build applications on this framework (other than C#) such as F# or VB.NET 
+	
+C# is a programming language, while .NET is a framework. It consists of a run-time environment (CLR) and a class 
+library that we use for building applications.
+	
+
+What exactly is the .NET framework?
+-----------------------------------
+.NET framework consists of 2 components: 
+	1) CLR (Common Language Runtime)
+	1) Class Library - for building applications
+	
+
+What is CLR (Common Language Runtime)?
+--------------------------------------	
+When you compile C# source code, the result is IL Code (Intermediate Language Code). This is independent of the computer 
+on which it is running. 
+
+Now, you need something that will translate the IL Code into Native Code to the machine that is running the application. This 
+is the job of CLR. CLR is essentially an application that is sitting in memory whose job it is to translate IL Code into Machine code. 
+This process is called Just-in-time Compilation (JIT). 
+
+As long as a machine has CLR, it can run your C# application. 
+
+
+Architecture of .NET Applications
+---------------------------------
+At a very high level, when you build an application with C#, your application consists of building blocks called classes. These classes 
+colabroate with each other at runtime and as a result, the application provides some functionality.  
+
+
+What is a class?
+----------------
+A class is a container that has some data (also called attributes) and functions (which are also called methods). 
+
+
+What is a Namespace?
+--------------------
+As the number of classes grows, we need a way to organize the classes. This is where we use Namespace. A Namespace is a container for 
+related classes. For example, in the .NET framework there are namespaces for working with databases or graphics or security. 
+
+If you want to use a class that is defined in a different namespace, we need to import it in our code file (this is why you use the 
+using statement). 
+
+
+What is an Assembly?
+--------------------
+In real world applications, as the namespaces grow, we need a different way of partitioning an application. This is where we use an assembly. 
+An assembly is a container for related namespaces. Physically, it is a file on the disk - which can either be an execuitable or DLL (Dynamically 
+linked library). So when you compile an application, the compiler builds one or more assemblys depending on how you partition your code. 
+
+
+Misc Notes
+----------
+In Visual Studio, a "console application" is an application that does not have a graphical user interface. 
+
+C# is a case sensitive language. 
+
+In Visual Studio, run code with CTRL+F5 
+
