@@ -105,6 +105,25 @@ Enum
 Class
 
 
+Type Conversion
+---------------
+In C# there are a few different ways to do type conversion:
+
+1) Implicit type conversion:
+	byte b = 1;
+	int i = b; // this works because a byte can fit into an int 
+	
+2) Explicit type conversion (type casting):
+	int i = 1;
+	byte b = (byte)i; // i is an int and too big for a byte so it needs to be casted to a byte with (byte) 
+	
+3) Conversion between non-compatible types (such as string to int):
+	// use the convert class or parse method
+	string s = "1";
+	int i = Convert.ToInt32(s);  // Convert class - 1st way
+	int j = int.Parse(s);  // Parse method - 2nd way - this way takes a string and converts to a primitive type 
+
+
 
 
 
