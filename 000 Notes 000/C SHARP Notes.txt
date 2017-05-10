@@ -58,6 +58,56 @@ An assembly is a container for related namespaces. Physically, it is a file on t
 linked library). So when you compile an application, the compiler builds one or more assemblys depending on how you partition your code. 
 
 
+Declaring Vriables/Constants
+----------------------------
+Integer --> int number;  OR  int number = 1;
+float --> float pi = 3.14f;
+constant --> const float Pi = 3.14f;  // Note: you cannot define a constant without setting its value!
+
+
+Naming Conventions
+------------------
+Camel Case: firstName    // use this for regular variables 
+Pascal Case: FirstName   // use this for constants  
+Hungarian Notation: strFirstName   // dont use this 
+
+
+Primitive Data Types in C#
+--------------------------
+Integral Numbers	byte
+					short
+					int 
+					long
+Real Numbers		float
+					double
+					decimal
+Character			char 
+Boolean				bool
+
+
+Note about real numbers data types
+----------------------------------
+double is the default data type use by C# compiler when using real numbers. 
+If you want to use a float, you have to explicitly tell the comipler that the number you have is a float.
+Ex: float number = 1.2f; 
+Note: If you do not have the f after 1.2, the compiler will thing to treat this number as a double because double 
+is the default data type for real numbers - and of course a double cannot fit into a float so the program would not compile. 
+
+The same applys to decimal real number data types. If you want to use a decimal, you need to add m after the number.
+Ex: decimal number = 1.2m; 
+
+
+Non-Primitive Data Types
+------------------------
+String
+Array
+Enum
+Class
+
+
+
+
+
 Misc Notes
 ----------
 In Visual Studio, a "console application" is an application that does not have a graphical user interface. 
@@ -65,4 +115,5 @@ In Visual Studio, a "console application" is an application that does not have a
 C# is a case sensitive language. 
 
 In Visual Studio, run code with CTRL+F5 
+Complie code with CTRL+Shift+b 
 
