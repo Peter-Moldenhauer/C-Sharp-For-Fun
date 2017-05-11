@@ -124,6 +124,14 @@ In C# there are a few different ways to do type conversion:
 	int j = int.Parse(s);  // Parse method - 2nd way - this way takes a string and converts to a primitive type 
 
 
+C# Operators
+------------
+In C# there are 5 types of operators:
+1) Arithmetic Operators ( + - * / % ++ -- )
+2) Comparison Operators ( == != > >= < <= )  The result of a comparison expression is always either true or false 
+3) Assignment Operators ( = += -= *= /= ) Ex. a += 3 --> same as --> a = a + 3 
+4) Logical Operators ( && || ! ) 
+5) Bitwise Operators ( & | ) 
 
 
 
