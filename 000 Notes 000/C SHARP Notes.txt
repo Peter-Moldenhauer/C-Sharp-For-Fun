@@ -143,4 +143,5 @@ C# is a case sensitive language.
 
 In Visual Studio, run code with CTRL+F5 
 Complie code with CTRL+Shift+b 
-
+Switch int to var --> ALT+ENTER
+Duplicate lines (with resharper) --> CTRL + d 
