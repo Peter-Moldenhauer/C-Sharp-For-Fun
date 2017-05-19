@@ -134,6 +134,22 @@ In C# there are 5 types of operators:
 5) Bitwise Operators ( & | ) 
 
 
+Structures vs. Classes
+-----------------------
+In C#, classes and structures are treated differently at run time in terms of memory management 
+
+Structures contain: Primitive types, custom structures
+Structures are called "Value Types"
+	- Allocated on the stack
+	- Memory allocation done automatically 
+	- Immediately removed when out of scope
+
+Classes contain: Arrays, Strings, Custom classes 
+Classes are called "Reference Types" 
+	- YOU need to allocate memory (with the "new" keyword) 
+	- Memory allocated on the heap 
+	- Garbage collection by CLR 
+
 
 Misc Notes
 ----------
