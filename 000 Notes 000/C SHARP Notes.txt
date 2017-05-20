@@ -161,3 +161,5 @@ In Visual Studio, run code with CTRL+F5
 Complie code with CTRL+Shift+b 
 Switch int to var --> ALT+ENTER
 Duplicate lines (with resharper) --> CTRL + d 
+With resharper, select pieces of code --> CTRL + w 
+With resharper, put class/enum/etc in a new file --> ALT + ENTER, then hit enter 
