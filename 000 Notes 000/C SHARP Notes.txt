@@ -163,3 +163,8 @@ Switch int to var --> ALT+ENTER
 Duplicate lines (with resharper) --> CTRL + d 
 With resharper, select pieces of code --> CTRL + w 
 With resharper, put class/enum/etc in a new file --> ALT + ENTER, then hit enter 
+Comment a block of code --> CTRL + c 
+
+Console.write - keeps cursor on the same line 
+Console.writeline - adds a newline character to put cursor on line below 
+
